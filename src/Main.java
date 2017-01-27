@@ -9,10 +9,10 @@ public class Main {
 		B1 ctb1 = new B1();
 		C1 ctc1 = new C1();
 		D1 ctd1 = new D1();
-		cta1.setRequired_j(ctb1);
-		cta1.setRequired_k(ctc1);
+		cta1.setRequiredJ(ctb1);
+		cta1.setRequiredK(ctc1);
 		cta1.helloWorld();
-		ctc1.setRequired_i(cta1);
-		System.out.println("ew: " + ctc1.ew());
+		ctc1.setRequiredI(cta1);
+		ctd1.helloWorld();
 	}
 }

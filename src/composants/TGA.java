@@ -4,19 +4,19 @@ import services.J;
 import services.K;
 
 public abstract class TGA implements I {
-	private J required_j;
-	private K required_k;
+	private J requiredJ;
+	private K requiredK;
 	
-	public J getRequired_j() {
-		return required_j;
+	public J getRequiredJ() {
+		return requiredJ;
 	}
-	public void setRequired_j(J required_j) {
-		this.required_j = required_j;
+	public void setRequiredJ(J requiredJ) {
+		this.requiredJ = requiredJ;
 	}
-	public K getRequired_k() {
-		return required_k;
+	public K getRequiredK() {
+		return requiredK;
 	}
-	public void setRequired_k(K required_k) {
-		this.required_k = required_k;
+	public void setRequiredK(K requiredK) {
+		this.requiredK = requiredK;
 	}
 }

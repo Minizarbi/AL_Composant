@@ -7,7 +7,7 @@ public class C1 extends TGC {
 
 	@Override
 	public String ew() {
-		this.getRequired_i().helloWorld();
+		this.getRequiredI().helloWorld();
 		return "Eeeeew!";
 	}
 
