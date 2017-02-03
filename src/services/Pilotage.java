@@ -2,6 +2,9 @@ package services;
 
 import utilitaires.Cap;
 
+/**
+ * Service qui fournit des méthodes de pilotage du robot
+ */
 public interface Pilotage {
 
 	public void avancer(int distance);

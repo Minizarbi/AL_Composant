@@ -2,6 +2,9 @@ package composants;
 
 import services.Pilotage;
 
+/**
+ * Composant pilote qui requiert un service défini par l'interface Pilotage
+ */
 public abstract class Pilote {
 	private Pilotage requiredPilotage;
 

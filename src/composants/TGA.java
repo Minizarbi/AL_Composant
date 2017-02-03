@@ -3,6 +3,11 @@ import services.I;
 import services.J;
 import services.K;
 
+/**
+ * SuperType de composant logiciel TGA qui fournit un service défini par l'interface I 
+ * et requiert deux services définis respectivement par les interfaces J et K
+ *
+ */
 public abstract class TGA implements I {
 	private J requiredJ;
 	private K requiredK;
